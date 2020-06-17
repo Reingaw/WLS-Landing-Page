@@ -1,0 +1,115 @@
+@import url('normalize.css');
+@import url('main.css');
+@import url('utils.css');
+@import url('effects.css');
+
+/* Blue 1: #000338 - Blue 2: #344D9A - Orange: #f4791f */
+
+/*############## Wagner's CSS Rules v1.0 #################*/
+.navbar-transparent {
+    padding: .9375em 0;
+    background: transparent;
+    border: none;
+    transition: background .3s ease-in;
+}
+a.navbar-brand {
+    padding: 0;
+}
+.navbar__logo {
+    display: block;
+    height: 50px;
+    width: 120px;    
+}
+.navbar__img-logo {
+    background: url('../img/logo-wh.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+    transition: background .3s ease-in;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 14pt;
+    color: #fff;
+    transition: color .3s ease-in;
+}
+/*color: #f4791f*/
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f4791f;
+}
+.divisor {
+    display: block;
+    padding: 1em 0.3125em 0.6875em;
+    font-weight: 900;
+    color: #fff;
+    transition: color .4s ease-in;
+}
+.main__first-section {
+    padding-bottom: 12.5em;
+}
+.title {
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #fff;
+    text-align: center;
+}
+.main__title {
+    font-size: 60pt;  
+    margin: 0.313em 0;  
+}
+.main__subtitle {
+    font-size: 30pt;
+    margin: 0;
+}
+.main__detail-white{
+    margin-top: 3.125em;
+    margin-bottom: -0.125em;
+    position: relative;
+}
+.main__detail-white:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+}
+.main__second-section {
+    padding-bottom: 6,25em;
+    background-color: #fff;
+}
+.insurance-title {
+    font-size: 30pt;    
+}
+.insurance-title:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 0.1875em;
+    background-color: #f4791f;
+}
+.insurance-title:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-left: 0.1875em;
+    background-color: #f4791f;
+}
+.insurance-title-h2 i {
+    color: #f4791f;
+    animation: pointer .6s infinite;
+}
+@keyframes pointer {
+    from {transform: translate3d(-8px, 0, 0);}
+    to {transform: translate3d(0, 0, 0);}
+}
+.insurance-service-list li {
+    list-style: none;
+}
+.insurance-service-list li i {
+    color: #9acd32;
+    font-size: 12pt;
+}

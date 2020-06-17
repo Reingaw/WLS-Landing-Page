@@ -1,0 +1,39 @@
+.is__navbar-white {
+    background: #fff !important;
+    transition: background .3s ease-in;
+}
+.is__navbar-white .navbar__img-logo {
+    background: url('../img/logo.svg') no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    color: transparent !important;
+    transition: background .3s ease-in;
+}
+.is__navbar-white .navbar-nav>li>a {
+    color: #000338 !important;
+    transition: color .3s ease-in;
+}
+.is__navbar-white .navbar-nav>li>a:hover {
+    color: #f4791f !important;
+}
+.is__navbar-white .divisor {
+    color: #000338 !important;
+    transition: color .3s ease-in;
+}
+[data-anime].is__faded {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="fade-left"] {
+    transform: translate3d(-20px, 0, 0);
+}
+[data-anime="fade-right"] {
+    transform: translate3d(20px, 0, 0);
+}
+[data-anime="fade-bottom"] {
+    transform: translate3d(0, 20px, 0);
+}
