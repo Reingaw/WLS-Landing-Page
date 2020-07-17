@@ -24,6 +24,9 @@
 .img-width-150 {
     max-width: 150px;
 }
+.img-width-200 {
+    max-width: 200px;
+}
 .b-bottom-1px{
     border-bottom: 1px solid #DDD;
 }
@@ -44,4 +47,25 @@
 }
 .all-padding-35 {
     padding: 35px;
+}
+.top-bottom-padding-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top-bottom-padding-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.top-bottom-padding-35 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.bottom-padding-15 {
+    padding-bottom: 15px;
+}
+.bottom-padding-25 {
+    padding-bottom: 25px;
+}
+.bottom-padding-35 {
+    padding-bottom: 35px;
 }
